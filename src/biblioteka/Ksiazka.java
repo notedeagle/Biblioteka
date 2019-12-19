@@ -24,20 +24,20 @@ public class Ksiazka implements Serializable {
         this.liczbaWypozyczen = 0;
     }
     
-    int getId() { return id; }
-    String getTytul() { return tytul; }
-    String getNazwiskoAutora() { return nazwiskoAutora; }
-    String getImionaAutora() { return imionaAutora; }
-    int getRok() { return rok; }
-    String getKategorie() { return kategorie; }
-    int getLiczbaWypozyczen() { return liczbaWypozyczen; }
+    int getId() {return id;}
+    String getTytul() {return tytul;}
+    String getNazwiskoAutora() {return nazwiskoAutora;}
+    String getImionaAutora() {return imionaAutora; }
+    int getRok() {return rok;}
+    String getKategorie() {return kategorie;}
+    int getLiczbaWypozyczen() {return liczbaWypozyczen;}
     String getCzyWypozyczona() { 
         if (czyWypozyczona) { 
             return "tak"; 
         } else
             return "nie";
     }
-    boolean getCzyWypozyczona1() { return  czyWypozyczona; }
+    boolean getCzyWypozyczona1() { return  czyWypozyczona;}
     public String getInicjaly() {
         char i1 = 0, i2 = 0;
         for (int i = 0; i < imionaAutora.length(); i++) {
